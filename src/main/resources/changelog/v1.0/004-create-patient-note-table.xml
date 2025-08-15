@@ -21,6 +21,9 @@
             <column name="patient_id" type="BIGINT">
                 <constraints nullable="false"/>
             </column>
+            <column name="external_id" type="VARCHAR(255)">
+                <constraints unique="true"/>
+            </column>
         </createTable>
 
         <addForeignKeyConstraint
