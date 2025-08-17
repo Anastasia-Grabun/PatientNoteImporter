@@ -11,6 +11,7 @@
             </column>
             <column name="first_name" type="VARCHAR(255)"/>
             <column name="last_name" type="VARCHAR(255)"/>
+            <column name="dob" type="DATE"/>
             <column name="status_id" type="SMALLINT">
                 <constraints nullable="false"/>
             </column>
